@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodePrintConfig>
+  <!--纸张信息-->
+  <PaperInfo>
+    <!--纸张宽度-->
+    <Width></Width>
+    <!--纸张高度-->
+    <Height></Height>
+    <!--左偏移量-->
+    <OffsetLeft></OffsetLeft>
+    <!--上偏移量-->
+    <OffsetTop></OffsetTop>
+    <!--纸张方向 true：横向，false：纵向-->
+    <LandScape></LandScape>
+  </PaperInfo>
+  <PrintElements>
+    <CodeInfo>
+      <!--条码：Code128 二维码：QRCode-->
+      <CodeType></CodeType>
+      <!--是否加密 true：加密 ，false：不加密-->
+      <IsEncrip></IsEncrip>
+      <!--对应的字段，‘,’号隔开，@为常量-->
+      <EntityFields></EntityFields>
+      <!--布局信息-->
+      <ElementPosition>
+        <X></X>
+        <Y></Y>
+        <EndX></EndX>
+        <EndY></EndY>
+      </ElementPosition>
+      <ElementStyle>
+        <Width>10</Width>
+        <Height>10</Height>
+        <FontFamilyStr>Times New Roman</FontFamilyStr>
+        <FontSize></FontSize>
+        <FontStyle></FontStyle>
+        <ImgPath></ImgPath>
+        <LineWidth></LineWidth>
+      </ElementStyle>
+    </CodeInfo>
+    <OtherInfos>
+      <PrintElement>
+        <!--entityfield：字段 text：文本 line：线条 img：图片-->
+        <ElementType></ElementType>
+        <EntityFields></EntityFields>
+        <!--布局信息-->
+        <ElementPosition>
+          <X></X>
+          <Y></Y>
+          <EndX></EndX>
+          <EndY></EndY>
+        </ElementPosition>
+        <ElementStyle>
+          <Width>10</Width>
+          <Height>10</Height>
+          <FontFamilyStr>Times New Roman</FontFamilyStr>
+          <FontSize></FontSize>
+          <FontStyle></FontStyle>
+          <ImgPath></ImgPath>
+          <LineWidth></LineWidth>
+        </ElementStyle>
+      </PrintElement>
+    </OtherInfos>
+  </PrintElements>
+</CodePrintConfig>
