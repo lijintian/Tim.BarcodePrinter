@@ -3,13 +3,13 @@
   <!--纸张信息-->
   <PaperInfo>
     <!--纸张宽度-->
-    <Width></Width>
+    <Width>100</Width>
     <!--纸张高度-->
-    <Height></Height>
-    <!--左偏移量-->
-    <OffsetLeft></OffsetLeft>
-    <!--上偏移量-->
-    <OffsetTop></OffsetTop>
+    <Height>100</Height>
+    <!--左偏移量，正数为左，负数为右-->
+    <OffsetLeft>20</OffsetLeft>
+    <!--上偏移量，正数为顶部，负数为底部-->
+    <OffsetTop>20</OffsetTop>
     <!--纸张方向 true：横向，false：纵向-->
     <LandScape></LandScape>
   </PaperInfo>
@@ -25,6 +25,7 @@
       <ElementPosition>
         <X></X>
         <Y></Y>
+        <!--线条类型元素才有EndX，EndY-->
         <EndX></EndX>
         <EndY></EndY>
       </ElementPosition>
@@ -32,9 +33,31 @@
         <Width>10</Width>
         <Height>10</Height>
         <FontFamilyStr>Times New Roman</FontFamilyStr>
-        <FontSize></FontSize>
-        <FontStyle></FontStyle>
+        <FontSize>10</FontSize>
+        <!--//
+        // 摘要:
+        //     普通文本。
+        Regular = 0,
+        //
+        // 摘要:
+        //     加粗文本。
+        Bold = 1,
+        //
+        // 摘要:
+        //     倾斜文本。
+        Italic = 2,
+        //
+        // 摘要:
+        //     带下划线的文本。
+        Underline = 4,
+        //
+        // 摘要:
+        //     中间有直线通过的文本。
+        Strikeout = 8-->
+        <FontStyle>0</FontStyle>
+        <!--图片类型元素才有ImgPath-->
         <ImgPath></ImgPath>
+        <!--横线元素才有LineWidth-->
         <LineWidth></LineWidth>
       </ElementStyle>
     </CodeInfo>
