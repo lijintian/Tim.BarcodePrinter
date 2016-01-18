@@ -19,6 +19,7 @@ namespace Tim.BarcodePrinter
         //todo:打印多个是用一个PrintDoucument对象
         //todo:某些配置节点没配置时给默认值
         //todo:适当的抛异常
+        //todo:可选择打印机
         private System.Drawing.Printing.PrintDocument printDocument = new System.Drawing.Printing.PrintDocument();
         private System.Windows.Forms.PrintDialog printDialog = new System.Windows.Forms.PrintDialog();
         private T codeEntity;
